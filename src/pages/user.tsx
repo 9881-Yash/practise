@@ -1,24 +1,23 @@
-"use client"
+"use client";
 
-import UserForm from "../components/UserForm";
-import UserIndex from "../components/UserIndex";
+import { useState } from "react";
+import SignUpPage from "../components/SignUpPage";
+import SignInPage from "@/components/SignInPage";
 
-const user = () => {
-    return (
-        <>
-        <div className="container-fluid">
-            <div className="row">
-                <div className="col-4">
-                    <UserIndex/>
-                </div>
-                <div className="col-4">
-                    <UserForm/>
-                </div>
-            </div>
-           
+const User = () => {
+  const [signIn, setSignIn] = useState<boolean>(false);
+
+  return (
+    <>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-4">
+            {!signIn ? <SignUpPage setSignIn={setSignIn} /> : <SignInPage />}
+          </div>
         </div>
-        </>
-    )
-}
+      </div>
+    </>
+  );
+};
 
-export default user;
+export default User;
