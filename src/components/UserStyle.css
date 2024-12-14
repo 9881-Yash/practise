@@ -1,0 +1,68 @@
+
+.form {
+     width: 300px;
+     padding: 20px;
+  
+}
+
+.form-label {
+    font-size: 16px;
+    font-weight: 500px;
+    color: black;
+}
+.border{
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.button-submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2px 2px;
+    cursor: pointer;
+    width: 30%;
+}
+
+.text-name {
+    margin-bottom: 15px;
+    width: 60%; 
+    padding: 5px;
+    margin-top: 5px;
+}
+.text-department {
+    margin-bottom: 15px;
+    width: 60%; 
+    padding: 5px;
+    margin-top: 5px;
+}
+.text-phone {
+    margin-bottom: 15px;
+    width: 60%; 
+    padding: 5px;
+    margin-top: 5px;
+}
+.text-city {
+    margin-bottom: 15px;
+    width: 60%; 
+    padding: 5px;
+    margin-top: 5px;
+}
+.text-state {
+    margin-bottom: 15px;
+    width: 60%; 
+    padding: 5px;
+    margin-top: 5px;
+}
+.text-country {
+    margin-bottom: 15px;
+    width: 60%; 
+    padding: 5px;
+    margin-top: 5px;
+}
+.text-remarks {
+    margin-bottom: 15px;
+    width: 60%; 
+    padding: 5px;
+    margin-top: 5px;
+}
